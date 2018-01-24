@@ -4,7 +4,7 @@ function Point(x, y) {
 }
 
 Point.prototype.toString = function() {
-  return("(" + this.x + "," + this.y + ")");
+  return(this.x + "," + this.y);
 }
 
 function Side(length) {
